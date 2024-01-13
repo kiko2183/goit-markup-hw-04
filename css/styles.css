@@ -141,6 +141,11 @@ img {
   padding-top: 188px;
   padding-bottom: 188px;
   background-color: #2e2f42;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/back.jpg);
 }
 
 .title-text {
@@ -215,6 +220,20 @@ img {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.future-svg {
+  width: 264px;
+  height: 112px;
+  border: 1px #8e8f99 solid;
+  border-radius: 4px;
+  background-color: #f4f4fd;
+}
+
+.future-img {
+  position: relative;
+  top: 24px;
+  left: 100px;
 }
 
 /*----------------------------------------------*/
