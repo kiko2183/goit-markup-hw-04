@@ -236,6 +236,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 8px;
 }
 
 .future-img {
@@ -248,8 +249,21 @@ img {
 
 /*-------------------Section3-------------------*/
 
-.social {
-  color: #f4f4fd;
+.social-team {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+.link-team {
+  display: flex;
+  background-color: #4d5ae5;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
 }
 
 .list-names {
