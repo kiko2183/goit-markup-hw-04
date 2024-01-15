@@ -64,14 +64,14 @@ img {
 
 .start {
   border-bottom: 1px #e7e9fc solid;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .start-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-navigation {
@@ -122,6 +122,9 @@ img {
   width: 48px;
   height: 4px;
   background-color: #404bbf;
+  border-radius: 2px;
+  position: absolute;
+  color: #404bbf;
 }
 
 .navigation:focus,
