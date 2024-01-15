@@ -116,28 +116,18 @@ img {
   display: block;
   letter-spacing: 0.02em;
   position: relative;
+  color: #404bbf;
 }
 
-.navigation::after {
+.index::after {
   content: "";
   width: 48px;
   height: 4px;
   background-color: #404bbf;
   border-radius: 2px;
   position: absolute;
-  color: #404bbf;
-  left: 1;
+  left: 0;
   bottom: -1px;
-}
-
-.navigation::after:hover,
-.navigation::after:focus {
-  color: #404bbf;
-}
-
-.navigation:focus,
-.navigation:hover {
-  color: #404bbf;
 }
 
 .adress-text {
