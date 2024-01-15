@@ -258,6 +258,8 @@ img {
 
 .social {
   fill: #f4f4fd;
+  width: 16px;
+  height: 16px;
 }
 
 .link-team {
@@ -271,6 +273,7 @@ img {
 }
 
 .link-team:hover {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-color: #404bbf;
 }
 
@@ -388,6 +391,7 @@ img {
 
 .end-container {
   display: flex;
+  align-items: baseline;
 }
 .end {
   padding-top: 100px;
@@ -450,10 +454,6 @@ img {
   background-color: #31d0aa;
 }
 
-.end-social {
-  margin-left: 120px;
-}
-
 .end-title {
   color: white;
   font-size: 16px;
@@ -462,6 +462,10 @@ img {
   line-height: 24px;
   letter-spacing: 0.32px;
   word-wrap: break-word;
+}
+
+.end-logo {
+  margin-right: 120px;
 }
 
 /*--------------------------------------------*/
