@@ -254,6 +254,7 @@ img {
   gap: 24px;
   justify-content: center;
   margin-top: 8px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social {
@@ -273,7 +274,10 @@ img {
 }
 
 .link-team:hover {
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: #404bbf;
+}
+
+.link-team:active {
   background-color: #404bbf;
 }
 
@@ -450,6 +454,10 @@ img {
 }
 
 .link-media:hover {
+  background-color: #31d0aa;
+}
+
+.link-media:active {
   background-color: #31d0aa;
 }
 
